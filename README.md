@@ -71,5 +71,10 @@ git commit -m "description of commit"
 ## add files and confirm files
 
 ```bash
-git commit -a -m "description of commit"
+git commit -am "description of commit"
+```
+## show conflicts
+
+```bash
+git commit -a 
 ```
