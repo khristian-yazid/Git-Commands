@@ -60,34 +60,11 @@ git add docs/
 git add docs/*.txt
 ```
 
+# Git-commit confirm changes to the files
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-commit
+## confirm file to repository
 
 ```bash 
-description of commit
+git commit -m "description of commit"
 ```
 
