@@ -68,3 +68,8 @@ git add docs/*.txt
 git commit -m "description of commit"
 ```
 
+## add files and confirm files
+
+```bash
+git commit -a -m "description of commit"
+```
