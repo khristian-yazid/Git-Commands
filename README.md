@@ -78,3 +78,23 @@ show conflicts
 ```bash
 git commit -a 
 ```
+
+## Git-log shows all logs made
+
+show logs of the commits
+
+```bash
+git log
+```
+
+show the changes in the commits
+
+```bash
+git log --oneline --stat
+```
+
+show graphic decorated of the commits
+
+```bash
+git log --oneline --graph
+```
