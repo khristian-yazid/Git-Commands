@@ -22,7 +22,7 @@ initialize repository
 ```bash
 git init
 ```
-## Git-add Adds The Files To The Staging
+## Git-add
 
 add all files to staging
 
@@ -60,7 +60,7 @@ add files from this directory and this extension
 git add docs/*.txt
 ```
 
-## Git-commit confirm changes to the files
+## Git-commit
 
 confirm file to repository
 
@@ -79,7 +79,7 @@ show conflicts
 git commit -a 
 ```
 
-## Git-log shows all logs made
+## Git-log
 
 show logs of the commits
 
@@ -98,3 +98,32 @@ show graphic decorated of the commits
 ```bash
 git log --oneline --graph
 ```
+
+## Git-diff 
+
+show changes in files
+
+```bash
+git diff
+git diff --staged
+```
+
+## Git-reset 
+
+pull file from commit
+
+```bash
+git reset HEAD <archivo>
+```
+return the last commit and places it in staging
+
+```bash
+git reset --soft HEAD^
+```
+
+return the last commit and all 
+
+```bash
+git reset --hard HEAD^^
+```
+
