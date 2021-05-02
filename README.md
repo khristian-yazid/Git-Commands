@@ -127,3 +127,35 @@ return the last commit and all
 git reset --hard HEAD^^
 ```
 
+## Git-branch
+
+create a new branch
+
+```bash
+git branch <nameBranch>
+```
+
+change branch
+
+```bash
+git checkout <nameBranch/tagname>
+```
+
+shows all branch
+
+```bash
+git branch
+```
+
+delete branch
+
+```bash
+git branch -D <nameBranch>
+```
+## Git-merge
+
+join the current branch with a specific
+
+```bash
+git merge <nameBranch>
+```
