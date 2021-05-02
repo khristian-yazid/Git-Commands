@@ -159,3 +159,36 @@ join the current branch with a specific
 ```bash
 git merge <nameBranch>
 ```
+
+## Git-tag
+
+create a tag
+
+```bash
+git tag -a <verison> - m "V 1.0.0"
+```
+
+show all tags in the repository
+
+```bash
+git tag
+```
+## Git-reset
+
+pulls out a file from the commit
+
+```bash
+git reset HEAD <archivo>
+```
+
+Returns the last commit that was made and puts the changes in staging
+
+```bash
+git reset --soft
+```
+
+Returns the last commit and all changes
+
+```bash
+git reset --hard HEAD^
+```
