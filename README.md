@@ -12,7 +12,7 @@ git config --global user.name "username"
 Configure Email
 
 ```bash
-git config --global user.email dasdo1@gmail.com
+git config --global user.email "example@email.com"
 ```
 
 ## Git Basic Commands
